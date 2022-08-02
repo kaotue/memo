@@ -25,7 +25,13 @@
   コンパイラが生成したコード。実行時にCLRはILをネイティブのCPU命令にコンパイルする。<br>
   
 ### マネージモジュールの結合によるアセンブリの生成
-![image](https://user-images.githubusercontent.com/56548030/182314413-ae9a4ac5-d307-493c-8e90-2b57ab88945a.png)
+![image](https://user-images.githubusercontent.com/56548030/182318866-dd3cd608-fe91-4318-92a1-00648089716c.png)
+
+## 別言語で作成したモジュールの呼び出しが可能
+プログラミング言語どうしを強力に統合しつつ簡単に切り替えられる能力は、CLRの非常に素晴らしい機能です。
+C#やVisualBasicのようなプログラミング言語はI/O処理に適した言語です。
+APLは工学や金融の分野における高度な計算の処理に適した言語です。
+CLRを使用すると、アプリケーションのI/O部分をC#で記述し、工学的な計算の部分をAPLで記述するといったことができます。
 
 ## 用語
 * CLR (Common Language Runtime)<br>
