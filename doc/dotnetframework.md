@@ -85,3 +85,15 @@ CLRがILコードを読んでいき、ネイティブコード（CPU依存）に
 ## 参考文献
 * CLR 【Common Language Runtime】 共通言語ランタイムとは<br>
 https://e-words.jp/w/CLR.html
+
+# 言語処理
+## 字句解析<br>
+一定のルールに従ってキーワードを分ける作業。後の構文解析をしやすくするための前準備。<br>
+１つの配列に全て入っている。<br>
+## 構文解析<br>
+前後を見て意味を解析する。<br>
+ツリー構造を作成している。<br>
+
+
+
+* CLR (Common Language Runtime)<br>
