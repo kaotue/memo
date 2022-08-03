@@ -30,7 +30,7 @@ CLIの目的は言語に依存しない開発環境および実行環境を提�
 * PE32/PE32+ヘッダ(Portable Executable)<br>
   このプログラムが動作可能なマシンの種類などが記載。<br>
   PE32かPE32+かは、ビルド時のターゲットによって変わる。<br>
-  * PE32 : AnyCPU<br>
+  * PE32 : x86/AnyCPU<br>
   * PE32+ : x64<br>
 ![image](https://user-images.githubusercontent.com/56548030/182280961-7e5011d3-b040-4cd4-aa2c-1383110bbeff.png)
 * CLRヘッダ<br>
