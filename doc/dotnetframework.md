@@ -28,8 +28,13 @@ CLIの目的は言語に依存しない開発環境および実行環境を提�
 * Win32APIを読んでいることを意識する必要がない
 * メモリ管理を意識する必要がない
 * CPUの差異を吸収できる
+* IL（中間言語）さえ作成できればどのような言語でもコーディング可能
 
 ## .NET Frameworkの挙動
+### 全体像
+ソースコードから中間言語へコンパイルされ、実行時にその都度機械語へコンパイルされて実行される<br>
+![image](https://user-images.githubusercontent.com/56548030/182747985-af5877db-69e0-442c-91c6-b8cc7511bedb.png)
+
 ### ソースコードのマネージモジュールへのコンパイル
 ![image](https://user-images.githubusercontent.com/56548030/182310217-fd6bc395-0095-4740-a3e3-9ef91fd608a9.png)
 
