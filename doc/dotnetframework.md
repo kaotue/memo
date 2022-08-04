@@ -79,10 +79,6 @@ CLRを使用すると、アプリケーションのI/O部分をC#で記述し、
   * 他社開発<br>
 　　Ada、APL、Caml、COBOL、Eiffel、Forth、Fortran、Haskell、Lexico、LISP、LOGO、Lua、Mercury、ML、Mondrian、Oberon、Pascal、Perl、PHP、Prolog、RPG、Scheme、Smalltalk、Tcl/Tk<br>
 
-## 参考文献
-* CLR 【Common Language Runtime】 共通言語ランタイムとは<br>
-https://e-words.jp/w/CLR.html
-
 # 言語処理
 ## 字句解析<br>
 一定のルールに従ってキーワードを分ける作業。後の構文解析をしやすくするための前準備。<br>
@@ -90,3 +86,8 @@ https://e-words.jp/w/CLR.html
 ## 構文解析<br>
 前後を見て意味を解析する。<br>
 ツリー構造を作成している。<br>
+
+# 参考文献
+* CLR 【Common Language Runtime】 共通言語ランタイムとは<br>
+https://e-words.jp/w/CLR.html
+* プログラミング.NET Framework 第4版
