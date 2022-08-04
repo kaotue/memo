@@ -90,7 +90,3 @@ https://e-words.jp/w/CLR.html
 ## 構文解析<br>
 前後を見て意味を解析する。<br>
 ツリー構造を作成している。<br>
-
-
-
-* CLR (Common Language Runtime)<br>
