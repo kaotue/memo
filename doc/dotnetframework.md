@@ -1,9 +1,15 @@
 # コードが.NET Framework上で動くまで
-## 概要
 
 ## 昔の実行環境 (～2000年以前)
 * メモリ管理、ポインタなど開発者が意識してコーディングする必要がある。
 * CPU毎（x86/x64）の命令に合わせたEXEファイルが必要。
+
+## .NET Framework(C#)が生まれた経緯（C#はJ++の生まれ変わり？）<br>
+1996年頃MicrosoftがJavaの拡張としてJ++という言語を開発していた。<br>
+MicrosoftとしてはJ++をさらに拡張していく予定であったが、Javaのライセンス元のSunMicrosystemsが商標権侵害でMicrosoftを訴訟。<br>
+（※SunのJava実装に含まれない独自の拡張機能を実装していた）<br>
+Microsoftが敗訴したため、これ以降J++の開発は中止となった。<br>
+Javaを元にMicrosoftがやりたいことができなくなったため、独自で開発言語環境を作りはじめる。→.NET Framework(C#)。
 
 ## .NET Frameworkとは<br>
 2000年にbeta版が発表。2003年から一般的に使われ始めた。<br>
